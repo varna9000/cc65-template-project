@@ -15,4 +15,4 @@ I've included `start.c` in `src` directory, which was my first attempt to make a
    make dsk
    ```
 
-2. Drop the generated `.dsk` image in your favourite Apple II emulator, or on the real hardware. IT should boot in Prodos and you can run the your app.
+2. Drop the generated `.dsk` image in your favourite Apple II emulator, or on the real hardware. It should boot in ProDos and you can run  your app.
