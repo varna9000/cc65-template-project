@@ -24,5 +24,5 @@ $(DSK): $(NAME).apple2
 	java -jar $(ACX) create -d $(NAME).po --format apple2/template.dsk --prodos --size=140kb
 	java -jar $(AC) -as $(NAME).po $(NAME) bin < $(NAME).apple2
 	java -jar $(AC) -p $(NAME).po IMAGE bin < mira.bin
-	osascript run-emulator.scpt
+	osascript run-emulator.applescript
 
