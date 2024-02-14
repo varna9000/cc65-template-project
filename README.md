@@ -16,3 +16,7 @@ I've included `start.c` in `src` directory, which was my first attempt to make a
    ```
 
 2. Drop the generated `.dsk` image in your favourite Apple II emulator, or on the real hardware. It should boot in ProDos and you can run  your app.
+
+*OR*
+
+2.1 if you have Virtual ][ installed (on Mac OS), the last line of the `Makefile-dks.mk` will execute an AppleScript, which starts the emulator, loads the `testproj.po` disk and `Brun`s the compiled program. Alternatively, if you use other architectures, comment or amend the last line of `Makefile-dsk.mk`,
